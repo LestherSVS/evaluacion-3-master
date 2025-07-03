@@ -1,0 +1,46 @@
+
+.formulario {
+  background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  max-width: 500px;
+  margin: 2rem auto;
+  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.formulario input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.formulario button {
+  padding: 0.7rem 1.5rem;
+  background-color: #4a00e0;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+  background-color: #3700b3;
+}
+
+.formulario .error {
+  color: red;
+  font-weight: bold;
+}
